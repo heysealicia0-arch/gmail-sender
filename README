@@ -19,9 +19,9 @@
     The module also provides a cli interface to send email if run directly
     (python -mgmail.cli)
     
-    Basic usage:
+    Basic usage:force brute
 
-    >>> gmail = GMail('A.User <user@gmail.com>','password')
+    >>> gmail = GMail('A.User <heysealicia0@gmail.com>','password')
     >>> msg = Message('Test Message',to='xyz <xyz@xyz.com>',text='Hello')
     >>> gmail.send(msg)
 
